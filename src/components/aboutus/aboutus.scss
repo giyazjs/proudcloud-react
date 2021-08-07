@@ -1,0 +1,25 @@
+.aboutus {
+    margin-top: 124px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        max-width: 472px;
+        width: 100%;
+        &-title {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 70px;
+            color: #fff;
+            margin-bottom: 32px;
+        }
+        &-desc {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 3;
+            color: #fff;
+            margin-bottom: 60px;
+        }
+    }
+}

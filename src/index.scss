@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1f1f1f;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.green-btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  background-color: #27ae60;
+  border-radius: 5px;
+  padding: 20px 48px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-top: 120px;
+}
+
+.CustomerCards {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}

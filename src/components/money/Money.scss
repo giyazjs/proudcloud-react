@@ -1,0 +1,28 @@
+.Money-blok {
+    background: #282828;
+    padding: 112px 0;
+    margin-top: 150px;
+}
+
+.money {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    &__h1 {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 36px;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+    &__p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+    .btn {
+        width: 300px;
+    }
+}

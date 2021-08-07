@@ -1,0 +1,27 @@
+.card {
+    width: 370px;
+    padding: 40px;
+    background: #282828;
+    text-align: center;
+    align-items: center;
+    margin-right: 30px;
+    img {
+        max-width: 100px;
+        width: 100%;
+        height: 64px;
+        margin-bottom: 16px;
+    }
+    p{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+    }
+    span {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}
